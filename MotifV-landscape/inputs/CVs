@@ -1,0 +1,16 @@
+3
+$COLVAR
+COLVAR_type = "DIHEDRAL"
+atoms = 3650, 3652, 3665, 3667     !Psi230
+$END 
+
+$COLVAR
+COLVAR_type = "DIHEDRAL"
+atoms = 3665, 3667, 3669, 3672     !Phi231
+$END 
+
+$COLVAR
+COLVAR_type = "DIHEDRAL"
+atoms = 3667, 3669, 3672, 3674     !Psi231
+$END
+ 
