@@ -1,7 +1,8 @@
 MM input string
 &cntrl
   imin      	= 0,		
-  temp0     	= 300.0,	
+  temp0     	= 300.0,
+  tempi       = 300.0
   ntt       	= 3,  		
   ntx       	= 1,        	
   ntb       	= 1,        	
