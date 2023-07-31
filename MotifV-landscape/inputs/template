@@ -1,24 +1,20 @@
 MM input string
 &cntrl
-  imin      	= 0,		! Minimization off
-  temp0     	= 300.0,	! Reference temperature at which the system is to be kept
-  tempi     	= 300.0,	! Initial temperature
-  ntt       	= 3,  		! Use Langevin dynamics with the collision frequency ? given by gamma_ln
-  ntx       	= 1,        	! Reading the coordinates from the  rst file
-  ntb       	= 1,        	! Volume constant
-  cut       	= 10.0,   	! Non bonded cut
-  gamma_ln	= 5.0,      	! Collision frequency
-  nstlim    	= 100000000,   	! number of steps
-  dt        	= 0.002,    	! Every step of 2 fs
+  imin      	= 0,		
+  temp0     	= 300.0,	
+  ntt       	= 3,  		
+  ntx       	= 1,        	
+  ntb       	= 1,        	
+  cut       	= 10.0,   	
+  gamma_ln	= 5.0,      
+  nstlim    	= 100000000,   	
+  dt        	= 0.002,    	
   ntc           = 2,
   ntf           = 2,
-  ntpr      	= 1000,    	! Print the progress to the output file every ntpr steps
-  ntwx      	= 20000,   	! Every ntwx steps, the coordinates will be written to the mdcrd file.
-  ntwr      	= 5000,    	! Every ntwr steps during dynamics, the restrt file will be written
-  ntxo     	= 1,        	! Format of the final coordinates,
-  !ifqnt     	= 1,        	! Switch on QM/MM coupled potential
-  !nmropt    	= 1       	! For restraints
+  ntpr      	= 1000,    
+  ntwx      	= 20000,   
+  ntwr      	= 5000,    
+  ntxo     	= 1,        	
   ig       	= XXXXX
 /
-!&wt type='END' /
-!DISANG=restr
+
