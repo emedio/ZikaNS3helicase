@@ -1,1 +1,13 @@
-
+$STRINGSETUP
+dir = "results/"
+guess_file = "guess"
+output_period = 10000
+preparation_steps = 5000
+REX_period = 250
+buffer_size = 10000
+gamma = 1D3
+force_gamma = 50
+remove_z_bias = .false.
+string_move_period = 50
+dump_pathCV_def = .true.
+$END
