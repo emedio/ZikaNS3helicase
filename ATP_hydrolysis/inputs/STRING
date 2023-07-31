@@ -1,0 +1,7 @@
+$STRINGSETUP
+dir = "results/"
+remove_z_bias = .false.
+fix_ends = .false.
+preparation_steps = 0
+guess_file = "guess"
+$END

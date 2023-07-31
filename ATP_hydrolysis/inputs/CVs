@@ -1,0 +1,38 @@
+7
+$COLVAR
+COLVAR_type = "BOND"
+atoms = 1699, 62548    !GLU102:OE2-WAT18979:H1
+$END
+
+$COLVAR
+COLVAR_type = "BOND"
+atoms = 62548, 62547     !WAT18979:H1-WAT18979:O
+$END
+
+$COLVAR
+COLVAR_type = "BOND"
+atoms = 62547, 6878    !WAT18979:O-ATP435:PG
+box = 1.0, 3.4
+$END
+
+$COLVAR
+COLVAR_type = "BOND"
+atoms = 6878, 6881     !ATP435:PG-ATP435:O3B
+$END
+ 
+$COLVAR
+COLVAR_type = "BOND"
+atoms = 6876, 6877    !MG434:MG-ATP435:01G
+$END
+
+$COLVAR
+COLVAR_type = "PPLANE"
+atoms = 6878, 6877, 6879, 6880   !Phosphate inversion
+$END
+
+$COLVAR
+COLVAR_type = "BOND"
+atoms = 62548, 6877    !WAT18979:H1-ATP435:01G
+$END
+
+ 
